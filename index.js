@@ -11,7 +11,8 @@ function handleClick(e) {
 /* Write your implementation of displayMessage() */
 
 function greet(time) {
-  if(time < "12") {
+  
+  if(parseInt(time) < 12 ) {
     return "Good Morning"
   } else if (time > "12" && time < "17") {
     return "Good Afternoon"
@@ -23,5 +24,5 @@ function greet(time) {
 
 function displayMessage(string) {
   let greeting = document.querySelector('h1#greeting')
-  greeting.innerText = string
+  greeting.innerHTML = string
 }
