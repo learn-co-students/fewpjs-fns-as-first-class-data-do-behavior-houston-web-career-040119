@@ -1,0 +1,74 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2019-05-15T03:59:58.076Z",
+    "end": "2019-05-15T03:59:58.704Z",
+    "duration": 628
+  },
+  "tests": [
+    {
+      "title": "Returns Good Morning before 12pm",
+      "fullTitle": "index.js greet() function Returns Good Morning before 12pm",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Returns Good Afternoon between 12pm and 5pm ",
+      "fullTitle": "index.js greet() function Returns Good Afternoon between 12pm and 5pm ",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Returns Good Evening after 5pm",
+      "fullTitle": "index.js greet() function Returns Good Evening after 5pm",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "updates the DOM with an appropriate message",
+      "fullTitle": "index.js displayMessage() function updates the DOM with an appropriate message",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "Returns Good Morning before 12pm",
+      "fullTitle": "index.js greet() function Returns Good Morning before 12pm",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Returns Good Afternoon between 12pm and 5pm ",
+      "fullTitle": "index.js greet() function Returns Good Afternoon between 12pm and 5pm ",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Returns Good Evening after 5pm",
+      "fullTitle": "index.js greet() function Returns Good Evening after 5pm",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "updates the DOM with an appropriate message",
+      "fullTitle": "index.js displayMessage() function updates the DOM with an appropriate message",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
